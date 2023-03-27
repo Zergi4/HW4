@@ -18,6 +18,20 @@ public class Main {
         } else {
             System.out.println(" Если скорость " + speedCar + " км/ч, придется заплатить штраф.");
         }
+//hw 4.4
+        int Age = 25;
+        if (Age >= 2 && Age <= 6) {
+            System.out.println("Если человеку " + Age + " лет ,то ему нужно ходить в детский сад.");
+        }
+        if (Age >= 7 && Age <= 18) {
+            System.out.println("Если человеку " + Age + " лет, то ему нужно ходить в школу.");
+        }
+        if (Age > 18 && Age < 24) {
+            System.out.println("Если человеку " + Age + " лет, то его место в университете.");
+        } else {
+            System.out.println("Если человеку " + Age + " лет, то ему пора ходить на работу");
+
+        }
 
     }
 }
