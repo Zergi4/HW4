@@ -12,7 +12,12 @@ public class Main {
         } else {
             System.out.println(" На улице " + temp + " градусов, не нужно одевать шапку");
         }
-
+        int speedCar = 61; //hw 4.3
+        if (speedCar <= 60) {
+            System.out.println(" Если скорость " + speedCar + " км/ч, можно ездить спокойно.");
+        } else {
+            System.out.println(" Если скорость " + speedCar + " км/ч, придется заплатить штраф.");
+        }
 
     }
 }
