@@ -42,6 +42,15 @@ public class Main {
         } else {
             System.out.println("Если возраст ребенка равен " + ageChildren + " годам, то он может кататься без сопровождения взрослого.");
         }
-
+//hw 4.6
+        int peopleInCarriage = 103;
+        if (peopleInCarriage > 0 && peopleInCarriage <= 60) {
+            System.out.println("В вагоне есть сидячие и стоячее места.");
+            }
+        if (peopleInCarriage > 60 && peopleInCarriage <= 102) {
+            System.out.println("Остались только стоячие места.");
+        } else {
+            System.out.println("Извините, мест нету.");
+        }
     }
 }
