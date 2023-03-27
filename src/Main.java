@@ -46,11 +46,28 @@ public class Main {
         int peopleInCarriage = 103;
         if (peopleInCarriage > 0 && peopleInCarriage <= 60) {
             System.out.println("В вагоне есть сидячие и стоячее места.");
-            }
+        }
         if (peopleInCarriage > 60 && peopleInCarriage <= 102) {
             System.out.println("Остались только стоячие места.");
         } else {
             System.out.println("Извините, мест нету.");
         }
+        //hw 4.7
+        int one = 1;
+        int two = 2;
+        int three = 3;
+
+        if (one > two && one > three) {
+            System.out.println("Первое число больше остальных.");
+        }
+        if (two > one && two > three) {
+            System.out.println("Второе число больше остальных.");
+        }
+        if (three > two && three > one) {
+            System.out.println("Третье число больше всех.");
+        } else {
+            System.out.println("Большее число не найдено.");
+        }
+
     }
 }
